@@ -1,16 +1,23 @@
-### Hi there 👋
+# peajs前端常用的脚手架
 
-<!--
-**peajs-cli/peajs-cli** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 安装
 
-Here are some ideas to get you started:
+```shell
+# install it globally
+$ npm install -g peajs-cli
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# or yarn
+$ yarn global add peajs-cli
+```
+
+## 使用  
+
+### Quick Start  
+
+```shell
+ pea create <name> [-f|--force]
+```
+
+### Options
+
+- `-f, --force`: Overwrite if the target exists  
